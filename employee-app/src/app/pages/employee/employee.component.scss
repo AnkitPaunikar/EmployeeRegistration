@@ -1,0 +1,42 @@
+.hidden {
+  display: none;
+}
+
+.modal_Employee {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+
+.btnClose {
+  border: none;
+  background: white;
+  font-size: 3rem;
+  left: 95%;
+  position: relative;
+}
+
+.btnSubmit {
+  margin-left: 0px;
+  margin-top: 10px;
+}
+
+.btnEdit {
+  margin-right: 0.8rem;
+}
+
+.btnAddEmployee {
+  position: relative;
+  left: 70rem;
+  bottom: 3rem;
+}
